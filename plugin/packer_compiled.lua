@@ -74,6 +74,11 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  Antares = {
+    loaded = true,
+    path = "/home/jcraig/.local/share/nvim/site/pack/packer/start/Antares",
+    url = "https://github.com/Haron-Prime/Antares"
+  },
   ["kanagawa.nvim"] = {
     loaded = true,
     path = "/home/jcraig/.local/share/nvim/site/pack/packer/start/kanagawa.nvim",
@@ -83,6 +88,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/jcraig/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
+  },
+  ["papercolor-theme"] = {
+    loaded = true,
+    path = "/home/jcraig/.local/share/nvim/site/pack/packer/start/papercolor-theme",
+    url = "https://github.com/NLKNguyen/papercolor-theme"
+  },
+  starrynight = {
+    loaded = true,
+    path = "/home/jcraig/.local/share/nvim/site/pack/packer/start/starrynight",
+    url = "https://github.com/josegamez82/starrynight"
   }
 }
 
